@@ -3,6 +3,10 @@ body {
     font: 16px arial, helvetica, sans-serif;
 }
 
+img {
+    border: 8px solid #c5c5b2;
+}
+
 a {
    text-decoration: none;
    color: #4b566a;    
