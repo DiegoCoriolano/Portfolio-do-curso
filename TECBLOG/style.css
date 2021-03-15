@@ -9,7 +9,34 @@ h1 {
     padding: 25px;
     padding-bottom: 20px;
     font: 40px Trebuchet MS, Helvetica, sans-serif;
-    font-weight: 700
+    font-weight: bold;
+}
+
+h2 {
+    font: 25px Trebuchet MS, Helvetica, sans-serif;
+    color: #F7B600;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    border-color:rgb(245, 242, 242);
+    transparent: none;
+}
+
+.img-post{
+    width:100%;
+}
+
+.data-post{
+    padding: 0px;
+    margin: 0px;
+    font: 13px Trebuchet MS, Helvetica, sans-serif;
 }
 
 #title {
@@ -40,4 +67,27 @@ a:link, a:visited {
 a:hover{
     background-color: white;
     color:#F7B600;
+}
+
+a.link-post:link, a.link-post:visited{
+    color: #F7B600;
+    padding: 0px;
+}
+
+a.link-post:hover{
+    color: #F7B600;
+    padding: 0px;
+    text-decoration: underline;
+}
+
+#principal {
+    width: 90%;
+    margin: 15px auto;
+}
+
+#postagem {
+    background-color:white;
+    padding: 3px 18px 20px 18px;
+    margin-top: 20px;
+
 }
