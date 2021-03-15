@@ -19,14 +19,43 @@ h2 {
     margin-bottom: 0px;
 }
 
-p {
+h3{
+    background-color: #CCCCCC;
+    font: 20px Trebuchet MS, Helvetica, sans-serif;
+    padding: 5px;
+    margin:0px;
+}
+
+p.descr {
     margin: 0px;
     padding: 0px;
+    font: 16px Trebuchet MS, Helvetica, sans-serif;
 }
 
 hr {
     border-color:rgb(245, 242, 242);
     transparent: none;
+}
+
+#conteudo{
+    width:60%;
+    margin: 15px auto;
+    padding: 0px;
+}
+
+#lateral{
+    float: right;
+    width: 26%;
+    margin: 0px 0px;
+}
+#principal {
+    width: 72%;
+    margin: 0px 0px;
+    float:left;
+}
+
+#categoria-lat{
+    background-color:white;
 }
 
 .img-post{
@@ -52,6 +81,16 @@ hr {
 #menu {
     text-align: center;
     padding-bottom: 25px;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    background-color: #CCCCCC;
+    padding:15px;
+    font-weight: bold;
+    font: 16px trebuchet MS, Helvetica, sans-serif;
+
 }
 
 a{
@@ -80,14 +119,53 @@ a.link-post:hover{
     text-decoration: underline;
 }
 
-#principal {
-    width: 90%;
-    margin: 15px auto;
-}
-
 #postagem {
     background-color:white;
     padding: 3px 18px 20px 18px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+}
 
+#post-recente{
+    background-color:white;
+    padding: 12px;
+    margin: 0px 0px 15px 0px;
+    font: 13px trebuchet MS, Helvetica, sans-serif;
+}
+
+#categoria-lat{
+    background-color:white;
+    padding: 12px;
+    margin: 0px 0px 15px 0px;
+}
+
+a.lateral-post-recente:link, a.lateral-post-recente:visited{
+    color: #F7B600;
+    padding: 0px;
+    font: 13px trebuchet MS, Helvetica, sans-serif;
+}
+
+a.lateral-post-recente:hover{
+    color: #F7B600;
+    padding: 0px;
+    text-decoration: underline;
+    font: 13px trebuchet MS, Helvetica, sans-serif;
+}
+
+p.paragrafo-post-recente{
+    margin: 5px 0px 0px 0px;
+}
+
+a.cat-lateral:link, a.cat-lateral:visited{
+    color: #F7B600;
+    padding: 0px;
+    font: 16px trebuchet MS, Helvetica, sans-serif;
+    display: block;
+}
+
+a.cat-lateral:hover{
+    color: #F7B600;
+    padding: 0px;
+    text-decoration: underline;
+    font: 16px trebuchet MS, Helvetica, sans-serif;
+    display: block;
 }
