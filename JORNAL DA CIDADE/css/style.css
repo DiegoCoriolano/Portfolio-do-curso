@@ -5,22 +5,41 @@ div#topo{
     background:#294C71 url("../images/fundo.png") repeat-x bottom ;
     margin:0px;
     padding: 20px;
+    height: 200px;
+    align-content: center;
+}
+
+div.content{
+    width: 1150px;
+    margin: 20px auto;
 }
 
 #topo ul{
+    position: absolute;
     list-style-type:none;
+    padding:0;
+    margin: 10px 180px;
+    z-index: 1;
 }
 
 #topo ul li{
-    border: 1px solid yellow;
-    display: inline-block;
+    display: inline;
     color: white;
-    line-height: 16px;
-    background-color: crimson;
-    padding:8px;
+    line-height: 20px;
+    background: crimson url("../images/divisor.png") no-repeat center right;
+    padding:15px;
     margin: 0px 0px;
+    float:left;
 }
 
 #topo img#logo{
-    margin-left: 40px;
+    margin-left: 180px;
+}
+
+#topo img#detalhe{
+    float:left;
+    position:absolute;
+    top:0px;
+    right: 480px;
+    z-index:0;
 }
