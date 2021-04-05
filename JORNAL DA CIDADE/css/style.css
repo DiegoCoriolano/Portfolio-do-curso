@@ -1,6 +1,9 @@
 body{
    margin: 0px;
+   font: 16px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
+
 div#topo{
     background:#294C71 url("../images/fundo.png") repeat-x bottom ;
     margin:0px;
@@ -26,14 +29,32 @@ div.content{
     display: inline;
     color: white;
     line-height: 20px;
-    background: crimson url("../images/divisor.png") no-repeat center right;
+    background: rgb(155, 5, 35) url("../images/divisor.png") no-repeat center right;
     padding:15px;
     margin: 0px 0px;
     float:left;
 }
 
+#topo ul li.ultimolink{
+    background: rgb(155, 5, 35) none;
+}
+
 #topo img#logo{
     margin-left: 180px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.navtopo{
+
+    color: white;
+    font-weight: bold;
+}
+
+a.navtopo:hover{
+    color: gray;
 }
 
 #topo img#detalhe{
